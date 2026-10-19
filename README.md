@@ -77,7 +77,7 @@ You can personalize this portfolio by:
 This portfolio can be deployed using:
 
 - [GitHub Pages](https://codesiddhu.github.io/my-Portfolio/)
-- 
+
 
 ## 📄 License
 
