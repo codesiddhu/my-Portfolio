@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Developer</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">MyPortfolio<span>.</span></h2>
+
+            <button class="menu-btn" id="menu-btn"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+
+            <button id="theme-btn" class="theme-btn"
+                    aria-label="Switch to light mode">
+                ☀️
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+
+                <p class="intro">HELLO, I'M</p>
+
+                <h1>Pasupuleti Sreedhar </h1>
+
+                <h2>I'm a <span>Web Developer</span></h2>
+
+                <p class="hero-description">
+                    I create modern, responsive, and user-friendly
+                    websites using HTML, CSS, and JavaScript.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-placeholder">PS</div>
+                </div>
+
+                <div class="about-text">
+                    <h3>Aspiring Web Developer</h3>
+
+                    <p>
+                        Hello! I'm a passionate developer who enjoys
+                        building websites and learning new technologies.
+                        I love solving problems and turning ideas into
+                        useful digital experiences.
+                    </p>
+
+                    <p>
+                        My goal is to create websites that look great,
+                        work smoothly, and provide a good user experience.
+                    </p>
+
+                    <a href="#contact" class="btn">Let's Connect</a>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">My Skills</h2>
+
+            <p class="section-description">
+                Technologies I use to build websites.
+            </p>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <div class="skill-icon html-icon">5</div>
+                    <h3>HTML5</h3>
+                    <p>Semantic web structure</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon css-icon">✳</div>
+                    <h3>CSS3</h3>
+                    <p>Responsive website design</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon js-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web experiences</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon git-icon">G</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon git-icon">React js</div>
+                    <h3>React js</h3>
+                    <p>User InterFace </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon git-icon"></div>
+                    <h3>Mysql</h3>
+                    <p>DataBase  </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon git-icon">Py</div>
+                    <h3>Python</h3>
+                    <p>Programming</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon git-icon">Dj</div>
+                    <h3>Django &Django Restframework</h3>
+                    <p>Backend</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">My Projects</h2>
+
+            <p class="section-description">
+                Here are some projects from my portfolio.
+            </p>
+
+            <div class="projects-container">
+
+                <article class="project-card">
+                    <div class="project-visual project-one">01</div>
+
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+
+                        <p>
+                            A responsive portfolio website showcasing
+                            my skills, projects, and contact information.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <button class="project-btn"
+                                data-project="portfolio">
+                            View Details ↗
+                        </button>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual project-two">02</div>
+
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+
+                        <p>
+                            A weather application concept for displaying
+                            weather conditions in a simple interface.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <button class="project-btn"
+                                data-project="weather">
+                            View Details ↗
+                        </button>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual project-three">03</div>
+
+                    <div class="project-info">
+                        <h3>Task Manager</h3>
+
+                        <p>
+                            A task management interface designed to help
+                            users organize their daily activities.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <button class="project-btn"
+                                data-project="tasks">
+                            View Details ↗
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+
+            <p class="section-description">
+                Have a project or opportunity? Let's connect!
+            </p>
+
+            <div class="contact-card">
+                <h3>Let's Work Together</h3>
+
+                <p>
+                    I'm open to opportunities, collaborations,
+                    and interesting projects.
+                </p>
+
+                <a href="mailto:sreedharroyals632@gmail.com?subject=Portfolio%20Inquiry&body=Hello%2C%20I%20visited%20your%20portfolio." class="btn">
+    Send Me an Email
+</a>
+                <div class="social-links">
+                    <a href="https://github.com/codesiddhu"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/pasupuleti-sreedhar-148a79249/?isSelfProfile=true"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Project Details Modal -->
+    <dialog id="project-modal" class="project-modal">
+        <button id="close-modal" class="close-modal"
+                aria-label="Close project details">×</button>
+
+        <h2 id="modal-title">Project Title</h2>
+
+        <p id="modal-description"></p>
+
+        <button id="modal-ok" class="btn">Close</button>
+    </dialog>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © <span id="year"></span> Your Name.
+            Built with HTML, CSS & JavaScript.
+        </p>
+    </footer>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
